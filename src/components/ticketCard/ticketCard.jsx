@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { add, format } from 'date-fns';
 import PropTypes from 'prop-types';
 
-import InfoBlock from '../infoBlock/infoBlock.js';
+import InfoBlock from '../infoBlock/infoBlock.jsx';
 
 import styles from './ticketCard.module.scss';
 

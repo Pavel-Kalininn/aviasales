@@ -2,8 +2,8 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { sortBy } from 'lodash';
 
-import TicketCard from '../ticketCard/ticketCard';
-import ShowMore from '../showMore/showMore';
+import TicketCard from '../ticketCard/ticketCard.jsx';
+import ShowMore from '../showMore/showMore.jsx';
 
 import styles from './ticketList.module.scss';
 

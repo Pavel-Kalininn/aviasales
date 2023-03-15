@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-import Tab from '../tab/tab';
+import Tab from '../tab/tab.jsx';
 import { changeTab } from '../../redux/actions/tabsAction';
 
 import styles from './tabsList.module.scss';

@@ -2,14 +2,14 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { getSearchId, loadTickets } from '../../redux/actions/ticketsAction';
-import Header from '../header/header.js';
-import TabsList from '../tabsList/tabsList.js';
-import Filters from '../filters/filters.js';
-import Spinner from '../spinner/spinner.js';
-import TicketList from '../ticketList/ticketList.js';
+import Header from '../header/header.jsx';
+import TabsList from '../tabsList/tabsList.jsx';
+import Filters from '../filters/filters.jsx';
+import Spinner from '../spinner/spinner.jsx';
+import TicketList from '../ticketList/ticketList.jsx';
 
-import styles from './App.module.scss';
-import './global.scss';
+import styles from './app.module.scss';
+import '../../global.scss';
 
 function App() {
   const dispatch = useDispatch();

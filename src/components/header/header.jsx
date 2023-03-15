@@ -1,7 +1,8 @@
 import React from 'react';
 
+import logo from '../../assets/Logo.png';
+
 import styles from './header.module.scss';
-import logo from './Logo.png';
 
 function Header() {
   return (
